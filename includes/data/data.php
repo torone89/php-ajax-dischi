@@ -41,5 +41,33 @@ $dischi = [
         'year' => 2002,
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg',
         'genre' => 'Rock'
-    ]
+    ],
+    [
+        'title' => 'Made in Japan',
+        'author' => 'Deep Purple',
+        'year' => 1972,
+        'poster' => 'https://m.media-amazon.com/images/I/71SxPkY9fKL._AC_SL1300_.jpg',
+        'genre' => 'Rock'
+    ],
+    [
+        'title' => 'And justice for all',
+        'author' => 'Metallica',
+        'year' => 1988,
+        'poster' => 'https://m.media-amazon.com/images/I/81pchxSIApL._AC_SL1200_.jpg',
+        'genre' => 'Metal'
+    ],
+    [
+        'title' => 'Hard wired',
+        'author' => 'Dave Weckl',
+        'year' => 1994,
+        'poster' => 'https://m.media-amazon.com/images/I/611TBSi2y8L._AC_SL1200_.jpg',
+        'genre' => 'Metal'
+    ],
+    [
+        'title' => 'Bad',
+        'author' => 'Michael Jackson',
+        'year' => 1987,
+        'poster' => 'https://m.media-amazon.com/images/I/51-c9KBefDL._AC_.jpg',
+        'genre' => 'Pop'
+    ],
 ];

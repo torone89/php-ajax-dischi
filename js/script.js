@@ -6,7 +6,7 @@ new Vue({
               dischi: [],
     },
     mounted() {
-        axios.get('localhost:8888/php-ajax-dischi/api/dischi.php').then((res) => {
+        axios.get('/php-ajax-dischi/api/dischi.php').then((res) => {
             this.dischi = res.data;
         })
     }
