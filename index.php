@@ -86,17 +86,28 @@ $dischi = [
     <!-- / HEADER -->
 
     <!-- CONTENUTO PRINCIPALE -->
-    <main></main>
+    <!-- MAIN -->
+    <main class="pb-2">
+        <div class="container">
+            <div class="row justify-content-between pt-4">
+                <!-- php -->
+                <?php
+                foreach ($dischi as $disco) : ?>
+                    <div class="card text-center col-2">
+                        <div class="pt-2">
+                            <img class="img-fluid" src="<?php echo $disco['poster'] ?>">
+                        </div>
+                        <div class='text-light'>
+                            <h5 class='text-uppercase fw-bold mt-1 p-1'> <?php echo $disco['title'] ?></h5>
+                            <p class='text-secondary'> <?php echo $disco['author'] ?><br>
+                                <?php echo $disco['year'] ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
 
-
-
-    <!-- PIE DI PAGINA -->
-
-    <footer>
-
-
-    </footer>
-
+        </div>
+    </main>
 
 
 </body>
