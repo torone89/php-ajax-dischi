@@ -1,4 +1,5 @@
 <?php
+
 $dischi = [
     [
         'title' => 'New Jersey',
@@ -43,10 +44,3 @@ $dischi = [
         'genre' => 'Rock'
     ]
 ];
-
-// Le informazioni inviate sono di tipo json 
-header("Content-Type: application/json");
-
-
-// Stampo & Trasformo il mio Array php in JSon
-echo json_encode($dischi);
