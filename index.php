@@ -71,8 +71,6 @@ $dischi = [
 
 <body>
 
-
-
     <!-- HEADER -->
     <header>
 
