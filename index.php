@@ -1,7 +1,5 @@
 <?php
-
 include __DIR__ . "/includes/data/data.php";
-
 ?>
 
 
