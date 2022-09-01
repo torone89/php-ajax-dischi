@@ -1,0 +1,16 @@
+/*****COLOR****
+Primary: #2d3a46
+Secondary: #1d2d3b
+/
+
+/* HEADER */
+header{
+    background-color:#2d3a46;
+    padding: 2px
+}   
+
+header img{
+    width: 80px;     
+}
+
+
