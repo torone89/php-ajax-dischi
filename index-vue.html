@@ -40,6 +40,15 @@
         <header class="container-fluid">
             <div class="logo-img">
                 <img src="./img/spotify-logo.svg">
+
+                <select v-model="selectedGenre" @change="getAlbums">
+                    <option value="">All</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Jazz">Jazz</option>
+                
+                </select>
+           
             </div>
         </header>
 

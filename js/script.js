@@ -3,11 +3,20 @@ Vue.config.devtools = true;
 new Vue({
     el: '#root',
     data: {   
-              dischi: [],
+        dischi: [],
+        selectedGenre: '',
+        
     },
-    mounted() {
-        axios.get('/php-ajax-dischi/api/dischi.php').then((res) => {
-            this.dischi = res.data;
-        })
-    }
+
+    getAlbums() {
+        
+            axios.get(`/php-ajax-dischi/api?genre=${this.selectedGenre}`)
+                .then(response => {
+                    this.dischi = response.data;
+                })
+        
+    },
+       mounted() {
+        this.getAlbums();
+    },
 });
